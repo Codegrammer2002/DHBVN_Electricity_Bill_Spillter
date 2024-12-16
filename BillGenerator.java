@@ -110,7 +110,7 @@ public class BillGenerator {
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        System.out.println("WELCOME TO THE ERA 2114 BILL GENERATOR!! Enter the name of the tenant\n");
+        System.out.println("Enter the name of the tenant\n");
         String name = sc.nextLine();
         generateBill(name);
         // printBill();
